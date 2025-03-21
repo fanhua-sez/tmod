@@ -1,0 +1,3 @@
+displayName = testsword
+author = sez
+version = 0.1

@@ -12,7 +12,7 @@ using testsword.Content.Projectiles;
 
 namespace testsword.Content.Items
 {
-    public class testgun:ModItem
+    public class Testgun:ModItem
     {
 
         public override void SetDefaults() {
@@ -29,7 +29,7 @@ namespace testsword.Content.Items
             Item.autoReuse = true;
             Item.noMelee = true;
             Item.noUseGraphic = false;
-            Item.shoot = ModContent.ProjectileType<Projectiles.testAnmo>();
+            Item.shoot = ModContent.ProjectileType<Projectiles.TestAnmo>();
             Item.shootSpeed = 60;
             Item.crit = 96;
 

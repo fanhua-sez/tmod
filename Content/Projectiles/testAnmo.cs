@@ -10,7 +10,7 @@ using Terraria.ModLoader;
 
 namespace testsword.Content.Projectiles
 {
-    public class testAnmo:ModProjectile
+    public class TestAnmo:ModProjectile
     {
         public override void SetDefaults()
         {
